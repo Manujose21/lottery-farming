@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans&display=swap');
 :root{
-    --bg: #fafbfc;
+    --bg: #0a0e11;
     --bg-cards: #111518;
     --bg-button: #eebc01;
     --bg-button-2: #f4ce72;
@@ -23,8 +23,8 @@ p{
     margin: 0;
 }
 body.dark{
-    --bg : #0a0e11;
-    color: var(--color);
+    --bg : #fafbfc;
+    color: var(--bg-cards);
 }
 p{
     line-height: 30px;
@@ -148,6 +148,9 @@ p{
 }
 .tam-img-50{
     width: 50px;
+}
+.tam-img-250{
+    width: 250px;
 }
 .bi-x{
     font-size: 30px;
